@@ -6,64 +6,210 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 	</head>
-	<body class="bg-blue-50 flex items-center justify-center min-h-screen">
-		<div class="bg-white rounded-lg shadow-lg p-6 w-80 border border-blue-200">
-			<div class="bg-blue-500 text-white text-center rounded-t-lg py-4">
-				<h2 class="text-lg font-semibold">Essential</h2>
-				<p class="text-3xl font-bold mt-2">R$ 387/mês</p>
-				<p class="text-sm mt-1">03 usuários</p>
+
+	<body class="bg-blue-50 min-h-screen">
+		<header class="flex items-center justify-between p-4 border-b border-gray-200">
+			<div class="flex items-center space-x-4">
+				<img alt="Company Logo" class="h-12" height="50" src="/images/icon-removebg-preview.png" width="100%" />
 			</div>
-			<ul class="mt-4 space-y-2 text-gray-700">
-				<li class="flex items-center">
-					<i class="fas fa-check-circle text-blue-500"></i>
-					<span class="ml-2">Central de Atendimento</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-check-circle text-blue-500"></i>
-					<span class="ml-2">CRM</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-minus-circle text-gray-400"></i>
-					<span class="ml-2">Disparo de Mensagem</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-minus-circle text-gray-400"></i>
-					<span class="ml-2">Distribuição automática de atendimento</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-minus-circle text-gray-400"></i>
-					<span class="ml-2">Carteiras de Cliente</span>
-				</li>
-			</ul>
-		</div>
-		<div class="bg-white rounded-lg shadow-lg p-6 w-80 border border-blue-200">
-			<div class="bg-blue-500 text-white text-center rounded-t-lg py-4">
-				<h2 class="text-lg font-semibold">Essential</h2>
-				<p class="text-3xl font-bold mt-2">R$ 387/mês</p>
-				<p class="text-sm mt-1">03 usuários</p>
+			<nav class="hidden md:flex space-x-8 text-gray-700 text-sm font-semibold -ml-20">
+				<a class="hover:text-blue-700" href="#"> SOBRE </a>
+				<a class="hover:text-blue-700" href="#"> NOSSO TRABALHO </a>
+				<a class="hover:text-blue-700" href="#">
+					PRODUTOS
+					<i class="fas fa-chevron-down"> </i>
+				</a>
+				<a class="hover:text-blue-700" href="#"> CONTATO </a>
+				<a class="hover:text-blue-700" href="#"> PLANOS </a>
+			</nav>
+			<div class="flex space-x-4">
+				<a class="text-blue-700 text-2xl" href="#">
+					<i class="fab fa-instagram"> </i>
+				</a>
+				<a class="text-blue-700 text-2xl" href="#">
+					<i class="fab fa-facebook"> </i>
+				</a>
+				<a class="text-blue-700 text-2xl" href="#">
+					<i class="fab fa-youtube"> </i>
+				</a>
 			</div>
-			<ul class="mt-4 space-y-2 text-gray-700">
-				<li class="flex items-center">
-					<i class="fas fa-check-circle text-blue-500"></i>
-					<span class="ml-2">Central de Atendimento</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-check-circle text-blue-500"></i>
-					<span class="ml-2">CRM</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-minus-circle text-gray-400"></i>
-					<span class="ml-2">Disparo de Mensagem</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-minus-circle text-gray-400"></i>
-					<span class="ml-2">Distribuição automática de atendimento</span>
-				</li>
-				<li class="flex items-center">
-					<i class="fas fa-minus-circle text-gray-400"></i>
-					<span class="ml-2">Carteiras de Cliente</span>
-				</li>
-			</ul>
+		</header>
+		<div>
+			<h1 class="text-4xl font-bold text-center mt-8 text-gray-700">Planos simples e flexíveis</h1>
+			<p class="text-center text-gray-500">Escolha o melhor plano para sua empresa e transforme o seu atendimento digital por WhatsApp e Direct com o Conecta!</p>
+			<div class="flex items-center justify-center space-x-4 mt-8">
+				<div class="bg-white rounded-lg shadow-lg p-6 w-80 border border-blue-200">
+					<div class="bg-blue-500 text-white text-center rounded-t-lg py-4">
+						<h2 class="text-lg font-semibold">Starter</h2>
+						<p class="text-3xl font-bold mt-2">R$ 499/mês</p>
+						<p class="text-sm mt-1">03 usuários</p>
+					</div>
+					<ul class="mt-4 space-y-2 text-gray-700">
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Atendimento WhatsApp</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">ChatBot</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Contatos Ilimitados</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-minus-circle text-gray-400"></i>
+							<span class="ml-2">CRM</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-minus-circle text-gray-400"></i>
+							<span class="ml-2">Instagram Direct</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-minus-circle text-gray-400"></i>
+							<span class="ml-2">Facebook Messenger</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-minus-circle text-gray-400"></i>
+							<span class="ml-2">Disparo em Massa</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-minus-circle text-gray-400"></i>
+							<span class="ml-2">Campos Complementares</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-minus-circle text-gray-400"></i>
+							<span class="ml-2">Integração (WebHook + API)</span>
+						</li>
+					</ul>
+					<div class="mt-4 text-center">
+						<button class="border border-blue-500 text-blue-500 rounded-lg py-2 px-4 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white">Contratar</button>
+					</div>
+				</div>
+				<div class="bg-white rounded-lg shadow-lg p-6 w-80 border border-blue-200">
+					<div class="relative text-xs font-bold px-2 py-1 rounded-bl-lg flex items-center justify-center text-white mb-4 border border-yellow-500 bg-yellow-500"><i class="fas fa-star mr-1"></i> Recomendado</div>
+					<div class="bg-blue-500 text-white text-center rounded-t-lg py-4">
+						<h2 class="text-lg font-semibold">Business</h2>
+						<p class="text-3xl font-bold mt-2">R$ 799/mês</p>
+						<p class="text-sm mt-1">05 usuários</p>
+					</div>
+					<ul class="mt-4 space-y-2 text-gray-700">
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Atendimento WhatsApp</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">ChatBot</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Contatos Ilimitados</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">CRM</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Instagram Direct</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Facebook Messenger</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Disparo em Massa</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Campos Complementares</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-minus-circle text-gray-400"></i>
+							<span class="ml-2">Integração (WebHook + API)</span>
+						</li>
+					</ul>
+					<div class="mt-4 text-center">
+						<button class="border border-blue-500 text-blue-500 rounded-lg py-2 px-4 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white">Contratar</button>
+					</div>
+				</div>
+				<div class="bg-white rounded-lg shadow-lg p-6 w-80 border border-blue-200">
+					<div class="bg-blue-500 text-white text-center rounded-t-lg py-4">
+						<h2 class="text-lg font-semibold">Enterprise</h2>
+						<p class="text-3xl font-bold mt-2">R$ 1.099/mês</p>
+						<p class="text-sm mt-1">10 usuários</p>
+					</div>
+					<ul class="mt-4 space-y-2 text-gray-700">
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Atendimento WhatsApp</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">ChatBot</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Contatos Ilimitados</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">CRM</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Instagram Direct</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Facebook Messenger</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Disparo em Massa</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Campos Complementares</span>
+						</li>
+						<li class="flex items-center">
+							<i class="fas fa-check-circle text-blue-500"></i>
+							<span class="ml-2">Integração (WebHook + API)</span>
+						</li>
+					</ul>
+					<div class="mt-4 text-center">
+						<button class="border border-blue-500 text-blue-500 rounded-lg py-2 px-4 transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white">Contratar</button>
+					</div>
+				</div>
+			</div>
 		</div>
+		<footer class="flex items-center justify-between p-4 border-t border-gray-200 mt-8">
+			<div class="flex items-center space-x-4">
+				<img alt="Company Logo" class="h-12" height="50" src="/images/icon-removebg-preview.png" width="100%" />
+			</div>
+			<nav class="hidden md:flex space-x-8 text-gray-700 text-sm font-semibold">
+				<a class="hover:text-blue-700" href="#"> SOBRE </a>
+				<a class="hover:text-blue-700" href="#"> NOSSO TRABALHO </a>
+				<a class="hover:text-blue-700" href="#">
+					PRODUTOS
+					<i class="fas fa-chevron-down"> </i>
+				</a>
+				<a class="hover:text-blue-700" href="#"> CONTATO </a>
+				<a class="hover:text-blue-700" href="#"> PLANOS </a>
+			</nav>
+			<div class="flex space-x-4">
+				<a class="text-blue-700 text-2xl" href="#">
+					<i class="fab fa-instagram"> </i>
+				</a>
+				<a class="text-blue-700 text-2xl" href="#">
+					<i class="fab fa-facebook"> </i>
+				</a>
+				<a class="text-blue-700 text-2xl" href="#">
+					<i class="fab fa-youtube"> </i>
+				</a>
+			</div>
+		</footer>
 	</body>
 </html>
